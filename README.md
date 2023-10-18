@@ -1,4 +1,4 @@
-# Art-works-web-shop project
+# Artworks-web-shop project
 
 This is server-side web shop for art works.
 
