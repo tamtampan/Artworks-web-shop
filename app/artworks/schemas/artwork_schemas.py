@@ -46,4 +46,3 @@ class ArtworkSchemaIn(BaseModel):
         """Configuration class"""
 
         orm_mode = True
-        
