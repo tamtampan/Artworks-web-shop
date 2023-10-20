@@ -1,4 +1,5 @@
 """Artwork schemas"""
+
 from pydantic import BaseModel, UUID4
 
 
