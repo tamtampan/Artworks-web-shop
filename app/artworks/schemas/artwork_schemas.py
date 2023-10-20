@@ -18,3 +18,31 @@ class ArtworkSchema(BaseModel):
     discount: float
     category_id: str
     technique_id: str
+
+    class Config:
+        """Configuration class"""
+
+        orm_mode = True
+
+
+class ArtworkSchemaIn(BaseModel):
+    """Base Schema In for Artwork"""
+
+    stock: int
+    title: str
+    description: str
+    dimensions: str
+    original: bool
+    artist: str
+    creation_date: str
+    price: float
+    image_url: str
+    discount: float
+    category_id: str
+    technique_id: str
+
+    class Config:
+        """Configuration class"""
+
+        orm_mode = True
+        
